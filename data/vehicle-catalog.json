@@ -1,0 +1,230 @@
+[
+  {
+    "id": "three-wheelers",
+    "name": "Three-Wheeler Bodies & Delivery Canopies",
+    "slug": "three-wheelers",
+    "tagline": "Heavy-duty cargo delivery boxes, mobile food kiosks, and custom steel canopies.",
+    "category": "Three Wheel",
+    "categoryColor": "amber",
+    "badge": "High Demand",
+    "badgeColor": "amber",
+    "coverImage": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "Customized heavy-gauge electro-galvanized steel structures engineered for Bajaj, Piaggio, and TVS three-wheelers. Ideal for courier distribution, mobile food trucks, bakeries, and secure cargo transport.",
+    "specs": {
+      "chassisCompatibility": "Bajaj RE / TVS King / Piaggio Ape",
+      "sheetMaterial": "1.2mm - 1.5mm High-Tensile Electro-Galvanized (GI) Sheet",
+      "floorPlate": "2.0mm Heavy Checkered Steel / Non-Slip Aluminum",
+      "paintFinish": "2K Industrial Automotive Polyurethane with Anti-Rust Epoxy Primer",
+      "dimensions": "Standard 5.0ft x 4.2ft x 4.5ft or Custom Built",
+      "warranty": "3-Year Structural Warranty on all welds and subframe joints"
+    },
+    "standardOptions": [
+      "Heavy-Duty Delivery Box with Gas Struts",
+      "Food-Truck Foldable Service Counters",
+      "Reinforced Roof Luggage Rack with Rear Access Ladder",
+      "Dual Keyed Deadbolts & Interior LED Lighting"
+    ],
+    "isPopular": false,
+    "basePrice": 95000,
+    "leadTime": "3 - 5 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.341Z",
+    "updatedAt": "2026-08-20T16:06:26.341Z"
+  },
+  {
+    "id": "tata-dimo-batta",
+    "name": "Tata Dimo Batta (Tata Ace) Bodies",
+    "slug": "tata-dimo-batta",
+    "tagline": "Sri Lanka's premier commercial light truck body with unbeatable payload endurance.",
+    "category": "Mini Truck",
+    "categoryColor": "emerald",
+    "badge": "Top Seller",
+    "badgeColor": "emerald",
+    "coverImage": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "Specially engineered for Tata Ace (Dimo Batta) chassis. Provides maximum internal volume, aerodynamic fuel-saving design, and high-strength side walls engineered for tough Sri Lankan road conditions.",
+    "specs": {
+      "chassisCompatibility": "Tata Ace HT / Super Ace / Ace Zip / Dimo Batta EX",
+      "sheetMaterial": "1.5mm - 2.0mm Zinc-Coated Corrugated Steel / Flat GI",
+      "floorPlate": "2.5mm Heavy Diamond-Checkered Plate",
+      "paintFinish": "4-Stage 2K Polyurethane Coating + Anti-Rust Underseal",
+      "dimensions": "7.5ft (L) x 4.8ft (W) x 5.5ft (H)",
+      "warranty": "5-Year Structural Frame & Welds Guarantee"
+    },
+    "standardOptions": [
+      "Full Weatherproof Canopy with Tarpaulin Frame",
+      "High-Deck Corrugated Steel Side Walls",
+      "Fully Enclosed Aluminum Delivery Container with Rear Roller Shutter",
+      "Tailgate Helper Springs & Reinforced Heavy Rear Bumper"
+    ],
+    "isPopular": false,
+    "basePrice": 185000,
+    "leadTime": "5 - 7 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.342Z",
+    "updatedAt": "2026-08-20T16:06:26.342Z"
+  },
+  {
+    "id": "mahindra-maximo",
+    "name": "Mahindra Maxximo & Bolero Bodies",
+    "slug": "mahindra-maximo",
+    "tagline": "Rigid structural steel builds engineered for maximum payload protection.",
+    "category": "Light Truck",
+    "categoryColor": "emerald",
+    "badge": "Popular",
+    "badgeColor": "amber",
+    "coverImage": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "Engineered for Mahindra Maxximo, Bolero Maxi Truck Plus, and Supro. Offers heavy load carrying capacity, zero chassis vibration, and sleek industrial finishes.",
+    "specs": {
+      "chassisCompatibility": "Mahindra Maxximo / Bolero Maxi Truck Plus / Supro HD",
+      "sheetMaterial": "1.6mm - 2.0mm Cold Rolled High-Grade GI Sheet",
+      "floorPlate": "2.5mm / 3.0mm Heavy Checkered Steel Plate",
+      "paintFinish": "Automotive Oven Baked 2K Finish (Custom Color Match)",
+      "dimensions": "8.2ft (L) x 5.2ft (W) x 6.0ft (H)",
+      "warranty": "5-Year Comprehensive Structural Warranty"
+    },
+    "standardOptions": [
+      "Drop-Side Folding Gates with Heavy Brass Locks",
+      "Reinforced Headboard Cab Protector",
+      "Heavy-Duty Tool Box Mounted Under Chassis",
+      "Waterproof Canvas Canopy with Custom Branding"
+    ],
+    "isPopular": false,
+    "basePrice": 210000,
+    "leadTime": "6 - 8 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.342Z",
+    "updatedAt": "2026-08-20T16:06:26.342Z"
+  },
+  {
+    "id": "10-5ft-bodies",
+    "name": "10.5 ft Medium Commercial Bodies",
+    "slug": "10-5ft-bodies",
+    "tagline": "The industry benchmark for Isuzu NKR, Canter, and Dimo 800/1100 distribution trucks.",
+    "category": "Medium Truck",
+    "categoryColor": "purple",
+    "badge": "Commercial Heavy",
+    "badgeColor": "blue",
+    "coverImage": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "Heavy-duty 10.5 foot body builds crafted from Japanese structural channel steel. Designed for logistics companies, wholesale distributors, hardware suppliers, and agricultural transport.",
+    "specs": {
+      "chassisCompatibility": "Isuzu NKR55/66 / Mitsubishi Canter / Tata 407 / Dimo 800-1100",
+      "sheetMaterial": "2.0mm - 2.5mm Heavy Corrugated GI / Composite Aluminum",
+      "floorPlate": "3.0mm Heavy Checkered Steel / Wooden Hardwood Deck",
+      "paintFinish": "Dual Coat Epoxy Marine Primer + Heavy-Duty Polyurethane",
+      "dimensions": "10.5ft (L) x 6.2ft (W) x 6.5ft (H)",
+      "warranty": "5-Year Full Structural Warranty"
+    },
+    "standardOptions": [
+      "Full Closed Aluminum Container Box with Side Door",
+      "Drop-Side 5-Gate Heavy Hardware Transport Body",
+      "High-Tensile Steel Cab Guard & Over-Cab Luggage Carrier",
+      "Stainless Steel Rear Hinges, Lock Bars & LED Side Markers"
+    ],
+    "isPopular": false,
+    "basePrice": 385000,
+    "leadTime": "8 - 12 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.342Z",
+    "updatedAt": "2026-08-20T16:06:26.342Z"
+  },
+  {
+    "id": "14-5ft-bodies",
+    "name": "14.5 ft Heavy-Duty Lorry Bodies",
+    "slug": "14-5ft-bodies",
+    "tagline": "Maximum payload volume & rugged high-tensile fabrication for long-haul logistics.",
+    "category": "Heavy Truck",
+    "categoryColor": "red",
+    "badge": "Heavy Duty",
+    "badgeColor": "red",
+    "coverImage": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "High-capacity 14.5 foot truck bodies for Isuzu NPR/NQR, Mitsubishi Fuso, and Hino. Built with precision laser alignment and certified welding to eliminate chassis stress under maximum legal payload.",
+    "specs": {
+      "chassisCompatibility": "Isuzu NPR / NQR / Fuso Canter / Hino 300 / Tata 709-909",
+      "sheetMaterial": "2.5mm High-Tensile Corrugated GI / 2.0mm Aluminum Alloy",
+      "floorPlate": "3.5mm Heavy Diamond-Checkered Plate with C-Channel Subframe",
+      "paintFinish": "Industrial 2K Polyurethane Coating (Custom Corporate Livery)",
+      "dimensions": "14.5ft (L) x 6.8ft (W) x 7.0ft (H)",
+      "warranty": "5-Year Comprehensive Structural Guarantee"
+    },
+    "standardOptions": [
+      "Full Logistics Dry Cargo Container with Internal E-Track Rails",
+      "Multi-Gate Agricultural Drop-Side Body with Tarpaulin Hoops",
+      "Heavy-Duty Rear Impact Guard & Dual Side Under-Run Protectors",
+      "Heavy Steel Tool Storage Box + Heavy Mudguard Flaps"
+    ],
+    "isPopular": false,
+    "basePrice": 520000,
+    "leadTime": "10 - 15 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.343Z",
+    "updatedAt": "2026-08-20T16:06:26.343Z"
+  },
+  {
+    "id": "custom-special-bodies",
+    "name": "Custom & Specialized Vehicle Bodies",
+    "slug": "custom-special-bodies",
+    "tagline": "Refrigerated freezer boxes, tipper bodies, mobile showrooms & breakdown platforms.",
+    "category": "Special Purpose",
+    "categoryColor": "cyan",
+    "badge": "Custom Built",
+    "badgeColor": "cyan",
+    "coverImage": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "galleryImages": [],
+    "description": "Tailor-made engineering solutions for unique commercial requirements including PUF-insulated freezer boxes (-20°C to +4°C), hydraulic tippers, recovery flatbeds, and mobile medical/display vans.",
+    "specs": {
+      "chassisCompatibility": "All Commercial Chassis (Custom Matched)",
+      "sheetMaterial": "High-Density PUF Panels (80mm-100mm) / Hardox Steel",
+      "floorPlate": "Stainless Steel SS304 Corrugated / Heavy Checkered",
+      "paintFinish": "Food-Grade Anti-Bacterial Coating / 2K Epoxy",
+      "dimensions": "Custom Built to Specific Operational Requirements",
+      "warranty": "5-Year Body & Insulation Guarantee"
+    },
+    "standardOptions": [
+      "Refrigeration Unit Integration (Thermo King / Carrier)",
+      "Hydraulic Tail-Lift System (500kg - 2000kg)",
+      "Mobile Kitchen Extraction & Inverter Solar Wiring",
+      "Hydraulic Tipper Ram Mechanism & Reinforced Sub-Chassis"
+    ],
+    "isPopular": false,
+    "basePrice": 650000,
+    "leadTime": "14 - 21 Days",
+    "availableOptions": [],
+    "createdAt": "2026-08-20T16:06:26.343Z",
+    "updatedAt": "2026-08-20T16:06:26.343Z"
+  }
+]

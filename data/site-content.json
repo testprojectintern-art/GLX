@@ -1,0 +1,146 @@
+{
+  "theme": {
+    "primaryColor": "#1e3a8a",
+    "primaryHover": "#1d4ed8",
+    "accentColor": "#f59e0b",
+    "accentHover": "#d97706",
+    "defaultMode": "dark",
+    "headerStyle": "solid",
+    "topAnnouncementText": "High-Tensile Steel & 2K Automotive Paint Fabrication",
+    "topBarLeftBadge": "BRC Registered: PV 00234891",
+    "topBarLocationText": "Ja-Ela & Kotugoda Facilities",
+    "topBarWhatsAppText": "WhatsApp Support"
+  },
+  "company": {
+    "name": "GLX Industries (Pvt) Ltd",
+    "brandName": "GLX TRUCK BODY ENGINEERS",
+    "tagline": "Sri Lanka's Premier Commercial Vehicle Body Builders",
+    "phone": "+94 77 226 8608",
+    "secondaryPhone": "+94 11 223 4567",
+    "whatsapp": "+94772268608",
+    "email": "info@glxindustries.lk",
+    "brcNumber": "PV 00234891",
+    "headOffice": "No.14, Negombo Road, Thudella, Ja-Ela, Sri Lanka (11350)",
+    "factoryWorkshop": "No.2020/3L, 2, Seeduwa Road, Kotugoda, Ja-Ela, Sri Lanka",
+    "operatingHours": "Monday - Saturday: 8:00 AM - 6:00 PM (Sunday Closed)",
+    "logoUrl": "/logo.jpg",
+    "copyrightText": "© 2026 GLX Industries (Pvt) Ltd. All Rights Reserved. Commercial Body Engineering Sri Lanka."
+  },
+  "home": {
+    "heroBadge": "15+ Years of Automotive Engineering Excellence",
+    "heroBadgeColor": "amber",
+    "heroTitle": "Engineered for Strength. Built for the Road.",
+    "heroSubtitle": "Heavy-duty commercial truck bodies, aerodynamic canopies, freezer containers, and custom three-wheeler fabrication crafted to Japanese manufacturing standards.",
+    "heroPrimaryBtnText": "Get Instant Quotation PDF",
+    "heroPrimaryBtnColor": "amber",
+    "heroSecondaryBtnText": "Explore Vehicle Catalog",
+    "heroSecondaryBtnColor": "default",
+    "heroBannerImage": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80",
+    "heroBannerImages": [
+      "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1600&q=80",
+      "/uploads/1787242866817_images.jpg"
+    ],
+    "stats": [
+      {
+        "label": "Vehicle Bodies Built",
+        "value": "3,500+",
+        "description": "Commercial road units completed"
+      },
+      {
+        "label": "Structural Warranty",
+        "value": "5 Years",
+        "description": "Full frame & joint guarantee"
+      },
+      {
+        "label": "Industrial Workshops",
+        "value": "2 Facilities",
+        "description": "Ja-Ela & Kotugoda factories"
+      },
+      {
+        "label": "Client Satisfaction",
+        "value": "99.4%",
+        "description": "Rated by commercial fleet owners"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "2K Industrial Paint & Anti-Rust",
+        "description": "Multi-stage epoxy primer with baked 2K automotive polyurethane coating that prevents corrosion in coastal humid climates.",
+        "icon": "ShieldCheck"
+      },
+      {
+        "title": "High-Tensile GI & Steel Plates",
+        "description": "Built strictly using certified 1.5mm - 3.5mm checkered steel and electro-galvanized sheets for high impact resistance.",
+        "icon": "Hammer"
+      },
+      {
+        "title": "5-Year Structural Frame Warranty",
+        "description": "Complete peace of mind with our official written warranty covering main chassis runners, cross members, and welding joints.",
+        "icon": "Award"
+      },
+      {
+        "title": "Fast Turnaround & Rapid Delivery",
+        "description": "Precision laser alignment and experienced fabricators ensure delivery within 3 to 14 days without sacrificing quality.",
+        "icon": "Zap"
+      }
+    ],
+    "ctaTitle": "Need a Heavy-Duty Body for Your Commercial Vehicle?",
+    "ctaSubtitle": "Calculate your exact build cost and download an official GLX Quotation PDF instantly in less than 60 seconds.",
+    "ctaBtnText": "Create Instant Quotation",
+    "ctaBtnColor": "amber"
+  },
+  "about": {
+    "title": "About GLX Industries",
+    "subtitle": "Pioneering Commercial Vehicle Engineering Since 2011",
+    "story": "GLX Industries has established itself as Sri Lanka's leading commercial vehicle body builder. Operating across two state-of-the-art facilities in Ja-Ela and Kotugoda, we design and manufacture heavy-duty lorry bodies, insulated freezer boxes, food trucks, and light truck bodies. Every structure is engineered with high-tensile galvanized steel and coated with multi-layer 2K polyurethane paint for maximum durability.",
+    "mission": "To engineer the most durable, reliable, and corrosion-resistant commercial vehicle bodies in Sri Lanka, empowering transport fleets and businesses with superior build quality.",
+    "vision": "To remain Sri Lanka's premier automotive body builder through engineering innovation, computerized precision, and uncompromising craftsmanship.",
+    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=1200&q=80",
+    "values": [
+      "Certified High-Tensile Steel & GI Materials",
+      "Computerized Precision Alignment & Laser Cutting",
+      "Automotive 2K Baked Polyurethane Coatings",
+      "5-Year Written Structural Frame Warranty"
+    ]
+  },
+  "services": {
+    "title": "Our Engineering Services",
+    "subtitle": "End-to-End Commercial Body Fabrication & Modifications",
+    "list": [
+      {
+        "id": "commercial-lorry",
+        "name": "Commercial Lorry Body Fabrication",
+        "description": "Custom high-deck, corrugated, and full-closed aluminium/steel bodies for 10.5ft, 14.5ft, 16.5ft, and heavy multi-axle trucks.",
+        "image": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "three-wheeler",
+        "name": "Three-Wheeler Canopies & Food-Trucks",
+        "description": "High-durability stainless steel and GI sheet canopies, custom mobile food carts, and multi-purpose delivery boxes.",
+        "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "dimo-maximo",
+        "name": "Dimo Batta & Maxximo Light Truck Bodies",
+        "description": "Optimized lightweight high-tensile steel bodies maximizing payload capacity and fuel efficiency.",
+        "image": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "refrigerated-boxes",
+        "name": "Freezer & Insulated Cold-Chain Boxes",
+        "description": "High-density polyurethane (PUF) foam insulation with stainless steel or GRP interiors for perishable cargo.",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "repair-painting",
+        "name": "Body Repair, 2K Painting & Re-Modifications",
+        "description": "Chassis extension, runner reinforcement, accident repair, anti-rust undercoating, and full booth spray painting.",
+        "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "contact": {},
+  "createdAt": "2026-08-20T16:06:22.747Z",
+  "updatedAt": "2026-08-20T16:23:45.271Z"
+}

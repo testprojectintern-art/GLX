@@ -1,0 +1,91 @@
+[
+  {
+    "id": "LEAD-1787242025206",
+    "type": "quotation",
+    "createdAt": "2026-08-20T16:07:05.206Z",
+    "customerName": "muuuu",
+    "customerPhone": "0789456123",
+    "vehicleCategory": "Three Wheel",
+    "vehicleName": "Three-Wheeler Bodies & Delivery Canopies",
+    "selectedOptions": [],
+    "estimatedPrice": 95000,
+    "quotationRef": "GLX-QT-2026-9289",
+    "customerNotes": "ccss",
+    "status": "New",
+    "smsStatus": "Simulated"
+  },
+  {
+    "id": "LEAD-1787221705559",
+    "type": "quotation",
+    "createdAt": "2026-08-20T10:28:25.559Z",
+    "customerName": "fc",
+    "customerPhone": "0123456789",
+    "vehicleCategory": "three-wheelers",
+    "vehicleName": "Three-Wheeler Bodies & Delivery Canopies",
+    "selectedOptions": [],
+    "estimatedPrice": 95000,
+    "quotationRef": "GLX-QT-2026-4524",
+    "customerNotes": "vdv",
+    "status": "New",
+    "smsStatus": "Simulated"
+  },
+  {
+    "id": "LEAD-1787219292126",
+    "type": "quotation",
+    "createdAt": "2026-08-20T09:48:12.126Z",
+    "customerName": "my",
+    "customerPhone": "01111111111",
+    "vehicleCategory": "three-wheelers",
+    "vehicleName": "Three-Wheeler Bodies & Delivery Canopies",
+    "selectedOptions": [],
+    "estimatedPrice": 95000,
+    "quotationRef": "GLX-QT-2026-1887",
+    "customerNotes": "hhhh",
+    "status": "New",
+    "smsStatus": "Simulated"
+  },
+  {
+    "id": "LEAD-1787212235168",
+    "type": "quotation",
+    "createdAt": "2026-08-20T07:50:35.168Z",
+    "customerName": "dilum",
+    "customerPhone": "0772268608",
+    "vehicleCategory": "custom-special-bodies",
+    "vehicleName": "Custom & Specialized Vehicle Bodies",
+    "selectedOptions": [],
+    "estimatedPrice": 650000,
+    "quotationRef": "GLX-QT-2026-1320",
+    "customerNotes": "dfd",
+    "status": "New",
+    "smsStatus": "Simulated"
+  },
+  {
+    "id": "LEAD-101",
+    "type": "quotation",
+    "createdAt": "2026-08-19T10:15:00.000Z",
+    "customerName": "Ruwan Jayasinghe",
+    "customerPhone": "0771234567",
+    "vehicleCategory": "tata-dimo-batta",
+    "vehicleName": "Tata Dimo Batta Bodies",
+    "selectedOptions": [
+      "Full Canopy with Tarpaulin Frame",
+      "2.5mm Heavy Checkered Plate"
+    ],
+    "estimatedPrice": 185000,
+    "quotationRef": "GLX-QT-2026-8942",
+    "status": "New",
+    "smsStatus": "Sent",
+    "customerNotes": "Urgent delivery needed for wholesale vegetable business in Pettah."
+  },
+  {
+    "id": "LEAD-102",
+    "type": "contact",
+    "createdAt": "2026-08-18T14:30:00.000Z",
+    "customerName": "Sunil Shantha",
+    "customerPhone": "0719876543",
+    "subject": "Custom 14.5ft Freezer Box Quotation",
+    "message": "We require 2 insulated freezer boxes with Thermo King units for frozen fish transport from Negombo to Colombo.",
+    "status": "Contacted",
+    "smsStatus": "Sent"
+  }
+]
