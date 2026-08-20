@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
-import { usePathname } from 'next/navigation';
+import React, { useState, useEffect } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { Menu, Sun, Moon, Globe, LayoutDashboard } from 'lucide-react';
+import { Menu, Sun, Moon, Globe, LayoutDashboard, Loader2 } from 'lucide-react';
 import AdminSidebar from '@/components/admin/AdminSidebar';
 import { useSiteContent } from '@/context/SiteContentContext';
 
@@ -13,11 +13,41 @@ export default function AdminLayout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const router = useRouter();
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
   const { themeMode, toggleThemeMode } = useSiteContent();
+
+  useEffect(() => {
+    if (pathname === '/admin/login') {
+      setIsAuthenticated(true);
+      return;
+    }
+
+    const auth = sessionStorage.getItem('glx_admin_auth');
+    if (auth === 'true') {
+      setIsAuthenticated(true);
+    } else {
+      setIsAuthenticated(false);
+      router.replace('/admin/login');
+    }
+  }, [pathname, router]);
 
   if (pathname === '/admin/login') {
     return <>{children}</>;
+  }
+
+  if (isAuthenticated === null || !isAuthenticated) {
+    return (
+      <div className="min-h-screen bg-slate-50 dark:bg-slate-950 flex flex-col items-center justify-center p-4 text-slate-900 dark:text-white">
+        <div className="flex flex-col items-center gap-3 p-6 rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl">
+          <Loader2 className="w-8 h-8 text-amber-500 animate-spin" />
+          <span className="text-xs text-slate-600 dark:text-slate-400 font-semibold">
+            Verifying Admin Session Security...
+          </span>
+        </div>
+      </div>
+    );
   }
 
   return (
