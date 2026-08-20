@@ -79,14 +79,14 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`sticky top-0 z-40 transition-all duration-500 ${
+        className={`sticky top-0 z-40 w-full min-w-full transition-all duration-500 ${
           scrolled
             ? 'bg-white/[0.97] dark:bg-slate-950/[0.97] shadow-xl shadow-slate-200/50 dark:shadow-black/40 backdrop-blur-2xl'
             : 'bg-white/90 dark:bg-slate-950/90 backdrop-blur-lg shadow-sm'
         } border-b border-slate-100 dark:border-slate-800/80 text-slate-900 dark:text-white`}
       >
         {/* ── Top announcement bar ── */}
-        <div className="hidden sm:block relative overflow-hidden bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 dark:from-black dark:via-slate-950 dark:to-black border-b border-slate-800/60">
+        <div className="hidden sm:block relative overflow-hidden w-full bg-gradient-to-r from-slate-950 via-slate-900 to-slate-950 dark:from-black dark:via-slate-950 dark:to-black border-b border-slate-800/60">
           {/* Subtle animated shimmer */}
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-amber-400/5 to-transparent animate-[shimmer_4s_ease-in-out_infinite]" />
 
@@ -133,25 +133,24 @@ export default function Navbar() {
         </div>
 
         {/* ── Main navigation row ── */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-[60px] sm:h-[68px] gap-4">
+        <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-14 sm:h-[68px] gap-2 sm:gap-4">
 
             {/* Brand / Logo */}
-            <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-              <div className={`relative w-10 h-10 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow-md flex-shrink-0 ring-1 transition-all duration-300 ${
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0 min-w-0">
+              <div className={`relative w-9 h-9 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow-md flex-shrink-0 ring-1 transition-all duration-300 ${
                 scrolled
                   ? 'ring-slate-200/80 dark:ring-slate-700/60'
                   : 'ring-amber-400/20 dark:ring-amber-400/20'
               } group-hover:ring-amber-400/60 group-hover:shadow-amber-400/20 group-hover:shadow-lg`}>
                 <img src={company.logoUrl || '/logo.jpg'} alt="GLX Logo" className="w-full h-full object-cover" />
-                {/* Subtle hover overlay */}
                 <div className="absolute inset-0 bg-amber-400/0 group-hover:bg-amber-400/10 transition-colors duration-300" />
               </div>
-              <div className="leading-none">
-                <span className="block font-black text-sm sm:text-base tracking-tight text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors duration-200">
+              <div className="leading-none min-w-0">
+                <span className="block font-black text-xs sm:text-base tracking-tight text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors duration-200 truncate">
                   {company.brandName || 'GLX INDUSTRIES'}
                 </span>
-                <span className="block text-[9px] sm:text-[10px] tracking-[0.2em] uppercase font-semibold text-slate-400 dark:text-slate-500 mt-0.5">
+                <span className="block text-[8px] sm:text-[10px] tracking-wider uppercase font-semibold text-slate-400 dark:text-slate-500 mt-0.5 truncate">
                   {company.tagline || 'Truck Body Engineers'}
                 </span>
               </div>
