@@ -134,11 +134,11 @@ export default function Navbar() {
 
         {/* ── Main navigation row ── */}
         <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-14 sm:h-[68px] gap-2 sm:gap-4">
+          <div className="flex justify-between items-center h-14 sm:h-[68px] gap-2">
 
             {/* Brand / Logo */}
-            <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-shrink-0 min-w-0">
-              <div className={`relative w-9 h-9 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow-md flex-shrink-0 ring-1 transition-all duration-300 ${
+            <Link href="/" className="flex items-center gap-2 sm:gap-3 group flex-1 min-w-0 pr-1">
+              <div className={`relative w-8 h-8 sm:w-12 sm:h-12 rounded-xl overflow-hidden shadow-md flex-shrink-0 ring-1 transition-all duration-300 ${
                 scrolled
                   ? 'ring-slate-200/80 dark:ring-slate-700/60'
                   : 'ring-amber-400/20 dark:ring-amber-400/20'
@@ -146,8 +146,8 @@ export default function Navbar() {
                 <img src={company.logoUrl || '/logo.jpg'} alt="GLX Logo" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-amber-400/0 group-hover:bg-amber-400/10 transition-colors duration-300" />
               </div>
-              <div className="leading-none min-w-0">
-                <span className="block font-black text-xs sm:text-base tracking-tight text-slate-900 dark:text-white group-hover:text-amber-600 dark:group-hover:text-amber-400 transition-colors duration-200 truncate">
+              <div className="leading-none min-w-0 flex-1 overflow-hidden">
+                <span className="block font-black text-xs sm:text-base tracking-tight text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-amber-400 transition-colors duration-200 truncate">
                   {company.brandName || 'GLX INDUSTRIES'}
                 </span>
                 <span className="block text-[8px] sm:text-[10px] tracking-wider uppercase font-semibold text-slate-400 dark:text-slate-500 mt-0.5 truncate">
@@ -203,26 +203,27 @@ export default function Navbar() {
               </Link>
             </div>
 
-            {/* Mobile right actions */}
-            <div className="flex sm:hidden items-center gap-1.5">
+            {/* Mobile right actions — always flex-shrink-0 to prevent being pushed off-screen */}
+            <div className="flex sm:hidden items-center gap-1.5 flex-shrink-0 z-20">
               <button
                 onClick={toggleThemeMode}
-                className="p-2 rounded-lg border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+                className="p-2 rounded-xl border border-slate-200 dark:border-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer bg-white/80 dark:bg-slate-900/80 shadow-sm"
                 title="Toggle theme"
               >
-                {themeMode === 'dark' ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-slate-600" />}
+                {themeMode === 'dark' ? <Sun className="w-4 h-4 text-amber-400" /> : <Moon className="w-4 h-4 text-blue-600" />}
               </button>
+
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className={`p-2 rounded-lg border transition-all duration-200 cursor-pointer ${
+                className={`p-2 rounded-xl border transition-all duration-200 cursor-pointer flex items-center justify-center shadow-sm ${
                   mobileMenuOpen
-                    ? 'border-blue-400/50 bg-blue-50 dark:bg-blue-500/10 text-blue-600 dark:text-blue-400'
-                    : 'border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                    ? 'border-blue-500 bg-blue-50 dark:bg-blue-500/20 text-blue-600 dark:text-blue-400'
+                    : 'border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 text-slate-900 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
                 }`}
                 aria-label="Toggle menu"
                 aria-expanded={mobileMenuOpen}
               >
-                {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+                {mobileMenuOpen ? <X className="w-5 h-5 text-blue-600 dark:text-blue-400" /> : <Menu className="w-5 h-5" />}
               </button>
             </div>
           </div>
