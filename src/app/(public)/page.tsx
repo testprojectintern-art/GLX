@@ -162,11 +162,11 @@ export default function HomePage() {
   const ctaBtnClass = getButtonClasses(home.ctaBtnColor);
 
   return (
-    <div className="space-y-16 sm:space-y-24">
+    <div className="space-y-12 sm:space-y-24">
       {/* 1. HERO SECTION WITH AUTO-ROTATING IMAGE SLIDER */}
-      <section className="relative min-h-[80vh] sm:min-h-[88vh] flex items-center justify-center pt-10 pb-16 sm:pb-20 overflow-hidden bg-slate-900 dark:bg-slate-950 text-white">
+      <section className="relative min-h-[72vh] sm:min-h-[88vh] flex items-center justify-center pt-6 pb-14 sm:pt-12 sm:pb-20 overflow-hidden bg-slate-900 dark:bg-slate-950 text-white w-full">
         {/* Dynamic Multi-Photo Carousel Background */}
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 w-full h-full">
           {heroSlides.map((slideImg, idx) => (
             <div
               key={idx}
@@ -179,15 +179,16 @@ export default function HomePage() {
                 alt={`Commercial Body Fabrication Slide ${idx + 1}`}
                 fill
                 priority={idx === 0}
-                className="object-cover object-center"
+                className="object-cover object-[center_30%] sm:object-center"
               />
             </div>
           ))}
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/45 to-slate-950/20" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-slate-950/30 to-slate-950/60" />
+          {/* Subtle multi-layer gradient for clear text readability while keeping the truck visible */}
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-slate-950/40 sm:via-slate-950/45 sm:to-slate-950/20" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-slate-950/25 to-slate-950/60" />
         </div>
 
-        {/* Hero Slider Navigation Arrows (Subtle) */}
+        {/* Hero Slider Navigation Arrows (Subtle Desktop) */}
         {heroSlides.length > 1 && (
           <>
             <button
@@ -207,70 +208,73 @@ export default function HomePage() {
           </>
         )}
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          {/* Clean Minimalist Corporate Badge (No Emojis) */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-950/80 border border-amber-500/60 text-amber-300 text-xs sm:text-sm font-semibold backdrop-blur-md mb-6 shadow-xl shadow-black/40">
-            <ShieldCheck className="w-4 h-4 text-amber-400 flex-shrink-0" />
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* Clean Minimalist Corporate Badge */}
+          <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-4 sm:py-1.5 rounded-full bg-slate-950/85 border border-amber-500/60 text-amber-300 text-[11px] sm:text-sm font-semibold backdrop-blur-md mb-3 sm:mb-6 shadow-xl shadow-black/40">
+            <ShieldCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400 flex-shrink-0" />
             <span>{home.heroBadge}</span>
           </div>
 
           {/* Heading */}
           <h1
             style={{ color: home.heroTitleColor || undefined }}
-            className="text-3xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight max-w-4xl mx-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]"
+            className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight leading-snug sm:leading-tight max-w-4xl mx-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.9)]"
           >
             {home.heroTitle}
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-5 text-base sm:text-xl text-slate-100 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)]">
+          <p className="mt-2.5 sm:mt-5 text-xs sm:text-base md:text-lg text-slate-100 max-w-2xl mx-auto leading-relaxed font-medium drop-shadow-[0_2px_10px_rgba(0,0,0,0.9)] px-2">
             {home.heroSubtitle}
           </p>
 
           {/* CTAs */}
-          <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="mt-5 sm:mt-10 flex flex-col sm:flex-row items-center justify-center gap-2.5 sm:gap-4 max-w-xs sm:max-w-none mx-auto w-full">
             <Link
               href="/quotation"
-              className={`w-full sm:w-auto px-8 py-4 rounded-xl font-extrabold text-base shadow-xl hover:scale-105 active:scale-95 transition flex items-center justify-center gap-2 ${primaryBtnClass}`}
+              className={`w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl font-extrabold text-xs sm:text-base shadow-xl hover:scale-105 active:scale-95 transition flex items-center justify-center gap-2 ${primaryBtnClass}`}
             >
-              <FileText className="w-5 h-5" />
+              <FileText className="w-4 h-4 sm:w-5 sm:h-5" />
               <span>{home.heroPrimaryBtnText}</span>
             </Link>
 
             <Link
               href="/catalog"
-              className={`w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-base transition flex items-center justify-center gap-2 ${secondaryBtnClass}`}
+              className={`w-full sm:w-auto px-6 py-3 sm:px-8 sm:py-3.5 rounded-xl font-bold text-xs sm:text-base transition flex items-center justify-center gap-2 ${secondaryBtnClass}`}
             >
               <span>{home.heroSecondaryBtnText}</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
             </Link>
           </div>
 
           {/* Trust points */}
-          <div className="mt-12 flex flex-wrap justify-center items-center gap-6 text-xs sm:text-sm text-slate-300 font-medium">
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="w-4 h-4 text-emerald-400" /> BRC Registered: PV 00234891
+          <div className="mt-6 sm:mt-12 flex flex-wrap justify-center items-center gap-2.5 sm:gap-6 text-[10px] sm:text-sm text-slate-300 font-medium">
+            <span className="flex items-center gap-1 sm:gap-1.5">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 flex-shrink-0" />
+              <span>BRC Reg: PV 00234891</span>
             </span>
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="w-4 h-4 text-amber-400" /> 5-Year Structural Frame Warranty
+            <span className="flex items-center gap-1 sm:gap-1.5">
+              <CheckCircle2 className="w-3.5 h-3.5 text-amber-400 flex-shrink-0" />
+              <span>5-Year Structural Frame Warranty</span>
             </span>
-            <span className="flex items-center gap-1.5">
-              <CheckCircle2 className="w-4 h-4 text-blue-400" /> Instant PDF Quotes + SMS Dispatch
+            <span className="hidden xs:flex items-center gap-1 sm:gap-1.5">
+              <CheckCircle2 className="w-3.5 h-3.5 text-blue-400 flex-shrink-0" />
+              <span>Instant PDF Quotes</span>
             </span>
           </div>
 
           {/* Slide Indicator Dots */}
           {heroSlides.length > 1 && (
-            <div className="mt-8 flex items-center justify-center gap-2">
+            <div className="mt-4 sm:mt-8 flex items-center justify-center gap-1.5 sm:gap-2">
               {heroSlides.map((_, dotIdx) => (
                 <button
                   key={dotIdx}
                   onClick={() => setCurrentSlide(dotIdx)}
                   aria-label={`Slide ${dotIdx + 1}`}
-                  className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
+                  className={`h-1.5 sm:h-2 rounded-full transition-all duration-300 cursor-pointer ${
                     dotIdx === currentSlide
-                      ? 'w-8 bg-amber-400 shadow-md shadow-amber-500/50'
-                      : 'w-2 bg-slate-600 hover:bg-slate-400'
+                      ? 'w-6 sm:w-8 bg-amber-400 shadow-md shadow-amber-500/50'
+                      : 'w-1.5 sm:w-2 bg-slate-600 hover:bg-slate-400'
                   }`}
                 />
               ))}
